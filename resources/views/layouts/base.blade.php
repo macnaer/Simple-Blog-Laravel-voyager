@@ -131,7 +131,8 @@
                     <span class="icon-bar"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-host">
-					<ul class="navbar-nav ml-auto">
+                    {!! menu('header-menu', 'layouts.header-menu') !!}
+					{{-- <ul class="navbar-nav ml-auto">
 						<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
 						<li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
 						<li class="nav-item dropdown">
@@ -152,7 +153,7 @@
 						<li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
 						<li class="nav-item"><a class="nav-link" href="pricing.html">Pricing</a></li>
 						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-					</ul>
+					</ul> --}}
 					<ul class="nav navbar-nav navbar-right">
                         <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Book Now</span></a></li>
                     </ul>
