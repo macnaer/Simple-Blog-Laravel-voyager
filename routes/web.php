@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', "PageController@home");
+Route::get('/blog', "PageController@blog");
 
 
 Route::group(['prefix' => 'admin'], function () {
