@@ -8,14 +8,14 @@
     IMPORT FILES
 -------------------------------------------------------------------*/
 
-@import url(css/animate.css);
-@import url(css/animate.min.css);
-@import url(css/bootstrap-touch-slider.css);
-@import url(css/flaticon.css);
-@import url(css/timeline.min.css);
-@import url(css/prettyPhoto.css);
-@import url(css/owl.carousel.css);
-@import url(css/font-awesome.min.css);
+@import url(animate.css);
+@import url(animate.min.css);
+@import url(bootstrap-touch-slider.css);
+@import url(flaticon.css);
+@import url(timeline.min.css);
+@import url(prettyPhoto.css);
+@import url(owl.carousel.css);
+@import url(font-awesome.min.css);
 
 /*------------------------------------------------------------------
     SKELETON
@@ -2443,7 +2443,7 @@ select.mobile-device {
 }
 
 #contact {
-    background: url(images/bg.png) no-repeat center center #fff;
+    background: url(/images/bg.png) no-repeat center center #fff;
 }
 
 .map-box{
@@ -2483,7 +2483,7 @@ select.mobile-device {
 .footer {
     padding: 90px 0 80px !important;
     color: #cccccc;
-	background:#4c5a7d url('images/world-map.png') no-repeat center; 
+	background:#4c5a7d url('/images/world-map.png') no-repeat center; 
 }
 
 .footer .widget-title {
@@ -3282,19 +3282,19 @@ span.m_1 {
 
 
 .img-bg-01{
-	background: url(images/img-01.jpg) no-repeat center;
+	background: url(/images/img-01.jpg) no-repeat center;
 	background-size: cover;
 }
 .img-bg-02{
-	background: url(images/img-02.jpg) no-repeat center;
+	background: url(/images/img-02.jpg) no-repeat center;
 	background-size: cover;
 }
 .img-bg-03{
-	background: url(images/img-03.jpg) no-repeat center;
+	background: url(/images/img-03.jpg) no-repeat center;
 	background-size: cover;
 }
 .img-bg-04{
-	background: url(images/img-04.jpg) no-repeat center;
+	background: url(/images/img-04.jpg) no-repeat center;
 	background-size: cover;
 }
 
