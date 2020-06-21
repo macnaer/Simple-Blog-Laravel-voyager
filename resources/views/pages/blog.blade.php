@@ -151,5 +151,10 @@
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
+	@foreach ($posts as $post )
+
+	<p>{{ $post->title }}</p>
+		
+	@endforeach
    @include('layouts.paralax')
 @endsection

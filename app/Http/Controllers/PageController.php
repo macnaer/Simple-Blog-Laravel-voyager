@@ -9,7 +9,4 @@ class PageController extends Controller
     public function home(){
         return view('pages.home');
     }
-    public function blog(){
-        return view('pages.blog');
-    }
 }
