@@ -15,6 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', "PageController@home");
 Route::get('/blog', "PostController@index");
+Route::get("post/show/{id}", 'PostController@show')->name('post.show');
 
 
 Route::group(['prefix' => 'admin'], function () {
